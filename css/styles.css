@@ -95,6 +95,8 @@ body {
 .section-header {
     color: white;
     position: relative;
+    font-size: 34px;
+    font-weight: bolder;
     
 }
 
@@ -106,6 +108,13 @@ body {
     bottom: -20%;
     left: 24%;
     border-bottom: 2px solid white;
+}
+
+.about-bio {
+    width: 374px;
+    margin-top: 28px;
+    margin-bottom: 200px;
+    
 }
 
 .contact-form {
