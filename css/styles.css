@@ -1,0 +1,186 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: helvetica;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;  
+    z-index: 1;
+    gap: 250px;
+
+}
+
+.personal-logo {
+    width: 59px;
+    height: 59px;
+    
+    
+}
+
+.nav-header {
+    display: flex;
+    gap: 40px;
+    margin-left: 50px;
+    
+    
+    
+}
+
+.header-link {
+    position: relative;
+}
+
+.header-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: center;
+    transition: transform 0.25s ease-out;
+    transform: scaleX(0);
+}
+
+.header-link:hover::after {
+    transform: scaleX(1);
+}
+
+.resume-btn {
+    width: 119.13px;
+    height: 42px;
+    color: white;
+    background-color: #cf1b1b;
+    border: 0;
+    
+    font-weight: 600;
+     
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 230.31px;
+    margin-top: 89.44px;
+}
+
+body {
+    margin: 0;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section-header {
+    color: white;
+    position: relative;
+    
+}
+
+.section-header:before {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 1px;
+    bottom: -20%;
+    left: 24%;
+    border-bottom: 2px solid white;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+.input-message, textarea, .submit-btn, .resume-btn {
+    border-radius: 8px;
+}
+
+.input-message, textarea {
+    background-color: white;
+    color: black;
+    padding: 15px;
+}
+
+.input-message {
+    width: 340px;
+    height: 20px;
+}
+
+textarea {
+    height: 200px;
+    width: 340px;
+    
+}
+
+.submit-btn {
+    margin-top: 40px;
+    width: 119.13px;
+    height: 42px;
+    color: white;
+    background-color: #cf1b1b;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+::placeholder {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+textarea::placeholder {
+    font-family: 'Helvetica';
+}
+
+.footer, .nav-header, .header, .header-link {
+    background-color: #14191b;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 0;
+    
+     
+}
+
+.social-logo {
+    height: 25px;
+    width: 25px;
+    
+}
+
