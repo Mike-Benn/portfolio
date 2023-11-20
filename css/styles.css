@@ -138,6 +138,19 @@ body {
     border-radius: 8px;
 }
 
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 57.78px;
+    margin-top: 46.78px;
+    gap: 700px;
+}
+
+.skills-image {
+    height: 75px;
+    width: 75px;
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;
