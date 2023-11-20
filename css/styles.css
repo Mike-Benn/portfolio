@@ -77,8 +77,10 @@ header {
     color: white;
     background-color: #cf1b1b;
     border: 0;
-    
+    text-align: center;
     font-weight: 600;
+    margin-top: auto;
+    margin-bottom: auto;
      
 }
 
@@ -173,6 +175,12 @@ body {
     width: 400px;
     justify-content: center;
     gap: 20px;
+}
+
+.project-image {
+    width: 320px;
+    height: 158px;
+    border-radius: 8px;
 }
 
 .contact-form {
