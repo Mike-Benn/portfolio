@@ -143,7 +143,8 @@ body {
     flex-direction: row;
     margin-bottom: 57.78px;
     margin-top: 46.78px;
-    gap: 700px;
+    gap: 200px;
+    
 }
 
 .skills-image {
@@ -155,6 +156,16 @@ body {
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    border-bottom: #cf1b1b solid;
+    align-items: center;
+    width: 400px;
+    justify-content: center;
+    gap: 20px;
 }
 
 .contact-form {
