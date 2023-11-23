@@ -4,7 +4,7 @@
     font-family: helvetica;
     
 }
-h3 {
+h3, .resume-link {
     background-color: #14191b;
 }
 h4 {
@@ -15,6 +15,11 @@ h4 {
 
 a {
     text-decoration: none;
+}
+
+.personal-logo-link {
+    border-bottom: none;
+    background-color: transparent;
 }
 
 header {
@@ -36,8 +41,10 @@ header {
 .personal-logo {
     width: 59px;
     height: 59px;
-    
-    
+}
+
+.personal-logo:hover {
+    cursor: pointer;
 }
 
 .nav-header {
@@ -71,6 +78,8 @@ header {
     transform: scaleX(1);
 }
 
+
+
 .resume-btn {
     width: 119.13px;
     height: 42px;
@@ -81,13 +90,18 @@ header {
     font-weight: 600;
     margin-top: auto;
     margin-bottom: auto;
-    
+    transition: .2s ease-in-out 0s;
      
 }
 
 .resume-btn:hover, .submit-btn:hover{
     cursor: pointer;
+    transform: scale(1.08);
+    
+    
 }
+
+
 
 #page-container {
     position: relative;
@@ -186,6 +200,11 @@ body {
     width: 320px;
     height: 158px;
     border-radius: 8px;
+    transition: transform .2s;
+}
+
+.project-image:hover {
+    transform: scale(1.1);
 }
 
 .contact-form {
@@ -230,7 +249,10 @@ textarea {
     margin-right: auto;
     font-weight: 600;
     font-size: 16px;
+    transition: .2s ease-in-out 0s;
 }
+
+
 
 ::placeholder {
     font-weight: 600;
@@ -266,6 +288,10 @@ footer {
 .social-logo {
     height: 25px;
     width: 25px;
+    transition: transform .2s;
     
 }
 
+.social-logo:hover {
+    transform: scale(1.2);
+}
