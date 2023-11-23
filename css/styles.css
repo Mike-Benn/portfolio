@@ -81,7 +81,12 @@ header {
     font-weight: 600;
     margin-top: auto;
     margin-bottom: auto;
+    
      
+}
+
+.resume-btn:hover, .submit-btn:hover{
+    cursor: pointer;
 }
 
 #page-container {
@@ -251,6 +256,11 @@ footer {
     padding: 15px 0;
     
      
+}
+
+.footer-nav {
+    display: flex;
+    gap: 15px;
 }
 
 .social-logo {
