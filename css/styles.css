@@ -4,31 +4,36 @@
     font-family: helvetica;
     
 }
-h3, .resume-link {
-    background-color: #14191b;
+
+header , .nav-header , .section-container , .bio-container , .skills-container , .skills-first-container , .skills-second-container , .skill ,
+.contact-form , footer , .footer-nav{
+    display: flex;
 }
 
 h3 {
     font-size: 18px;
+
 }
 
 h4 {
     margin: 0px;
     font-size: 22px;
     font-weight: 1100;
+
 }
 
 a {
     text-decoration: none;
+
 }
 
 .personal-logo-link {
     border-bottom: none;
     background-color: transparent;
+
 }
 
 header {
-    display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -38,10 +43,7 @@ header {
     z-index: 1;
     gap: 250px;
     
-
 }
-
-
 
 .personal-logo {
     width: 59px;
@@ -53,7 +55,6 @@ header {
 }
 
 .nav-header {
-    display: flex;
     gap: 40px;
     margin-left: 50px;
     
@@ -63,7 +64,7 @@ header {
 
 .header-link {
     position: relative;
-    background-color: #14191b;
+    
 }
 
 .header-link::after {
@@ -123,7 +124,7 @@ body {
 }
 
 .section-container {
-    display: flex;
+    
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -167,7 +168,7 @@ body {
 }
 
 .bio-container {
-    display: flex;
+    
     gap: 140px;
     align-items: center;
 
@@ -180,7 +181,7 @@ body {
 }
 
 .skills-container {
-    display: flex;
+    
     flex-direction: row;
     gap: 200px;
     
@@ -192,13 +193,13 @@ body {
 }
 
 .skills-first-container, .skills-second-container {
-    display: flex;
+    
     flex-direction: column;
     gap: 40px;
 }
 
 .skill {
-    display: flex;
+    
     flex-direction: row;
     border-bottom: #cf1b1b solid;
     align-items: center;
@@ -219,7 +220,7 @@ body {
 }
 
 .contact-form {
-    display: flex;
+    
     flex-direction: column;
     margin-top: -16px;
     gap: 16px;
@@ -272,12 +273,12 @@ textarea {
     
 }
 
-.footer, .nav-header, .header, .header-link, footer {
+.footer, .nav-header, .header, .header-link, footer , h3 , .resume-link , .header-link {
     background-color: #14191b;
 }
 
 footer {
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -290,7 +291,7 @@ footer {
 }
 
 .footer-nav {
-    display: flex;
+    
     gap: 15px;
 }
 
