@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./images/tab-icon.png">
+    <title>Welcome | Mike Bennett</title>
+</head>
+<body>
+    <div id="page-container">
+        <header class="header">
+            <a href="index.html" class="personal-logo-link"><img class="personal-logo" src="./images/personal-logo.png" alt="Initials of webpage creator Mike Bennett next to bear"></a>
+            <nav class="nav-header">
+                <a class="header-link" href="#top"><h3>Home</h3></a>
+                <a class="header-link" href="#top"><h3>About</h3></a>
+                <a class="header-link" href="#skills"><h3>Skills</h3></a>
+                <a class="header-link" href="#projects"><h3>Projects</h3></a>
+                <a class="header-link" href="#contact"><h3>Contact</h3></a>
+            </nav>
+            <a href="./files/resume.pdf" target="_blank" class="resume-link"><button class="resume-btn" type="button">View Resume</button></a>
+        </header>
+        <div id="content-wrap">
+            <div class="section-container">
+                <a class="section-header">About</a>
+                <div class="bio-container">
+                    <a id="skills"><img class="me" src="./images/me.png" alt="Picture of Mike Bennett, the webpage creator in a shite shirt and tie"></a>
+                    <div class="bio-content-container">
+                        <h4>Welcome!</h4>
+                        <p class="about-bio">I'm a lifelong healthcare worker who is currently going to school to be 
+                            a Software Engineer. I enjoy learning all there is to know about software development and am loving
+                            the feeling of creativity coding gives you.  When I'm not working at my computer I enjoy camping 
+                            and spending time with my fiance and our cat.  We both enjoy traveling and 
+                            visiting national parks in America to collect park stamps, and are determined to visit them all!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-container">
+                <h2 class="section-header">Skills</h2>
+                <div class="skills-container">
+                    <div class="skills-first-container">
+                        <div class="skill">
+                            <img class="skills-image" src="./images/java.png" alt="Steaming coffee in mug">
+                            <h4>JAVA</h4>
+                        </div>
+                        <div class="skill">
+                            <img class="skills-image" src="./images/python.png" alt="Two small snakes entertwined together">
+                            <h4>PYTHON</h4>
+                        </div>
+                        <div class="skill">
+                            <img class="skills-image" src="./images/nodejs.png" alt="The letters J and S next to each other">
+                            <h4>NODE JS</h4>
+                        </div>
+                    </div>
+                    <div class="skills-second-container">
+                        <div class="skill">
+                            <img class="skills-image" src="./images//typescript.png" alt="The letters T and S next to each other">
+                            <h4>TYPESCRIPT</h4>
+                        </div>
+                        <div class="skill">
+                            <img class="skills-image" src="./images/html.png" alt="Number five in black and white">
+                            <h4>HTML</h4>
+                        </div>
+                        <div class="skill">
+                            <img class="skills-image" src="./images/angular.png" alt="The letter A in black and white">
+                            <a id="projects"><h4>ANGULAR</h4></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-container">
+                <h2 class="section-header">Projects</h2>
+                <a href="https://www.github.com/Mike-Benn/D280-map" target="_blank"><img class="project-image" src="./images/map.png" alt="Screenshot of map of the United States"></a>
+            </div>
+
+            <div class="section-container">
+                <h2 class="section-header">Contact</h2>
+                <form class="contact-form" method="POST" action="./scripts/contact.php">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" placeholder="Name" class="input-message">
+
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="Email" class="input-message">
+
+                    <label for="message"></label>
+                    <textarea type="text" id="message" name="message" placeholder="Your message" class="contact-message"></textarea>
+
+                    <input id="submit" name="submit" type="submit" value="Submit" class="submit-btn">
+                </form>    
+            </div>
+        </div>
+        <footer class="footer">
+            <h1 class="footer">Mike Bennett</h1>
+            <nav class="footer footer-nav">
+                <a class="footer" href="https://github.com/mike-benn" target="_blank"><img class="social-logo footer" src="./images/github-logo.png"></a>
+                <a class="footer" href="mailto:mbenn49@wgu.edu"><img class="social-logo footer" src="./images/mail.png"></a>
+            </nav>
+            <h3 class="footer">© 2023 All Rights Reserved</h3>
+        </footer>
+
+    </div>
+</body>
+
+</html>
