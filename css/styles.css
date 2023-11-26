@@ -8,6 +8,31 @@
 header , .nav-header , .section-container , .bio-container , .skills-container , .skills-first-container , .skills-second-container , .skill ,
 .contact-form , footer , .footer-nav{
     display: flex;
+
+}
+
+.header-link::after , .input-message , textarea {
+    background-color: white;
+
+}
+
+.resume-btn , .submit-btn {
+    background-color: #cf1b1b;
+
+}
+
+.resume-btn , .submit-btn , .section-header {
+    color: white;
+
+}
+
+header , .section-container , .skill , footer , .bio-container {
+    align-items: center;
+    justify-content: center;
+}
+
+.section-container , .skills-first-container , .skills-second-container , .contact-form , footer {
+    flex-direction: column;
 }
 
 h3 {
@@ -34,8 +59,6 @@ a {
 }
 
 header {
-    justify-content: center;
-    align-items: center;
     position: fixed;
     top: 0;
     width: 100%;
@@ -74,7 +97,6 @@ header {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: white;
     transform-origin: center;
     transition: transform 0.25s ease-out;
     transform: scaleX(0);
@@ -89,8 +111,6 @@ header {
 .resume-btn {
     width: 119.13px;
     height: 42px;
-    color: white;
-    background-color: #cf1b1b;
     border: 0;
     text-align: center;
     font-weight: 600;
@@ -124,16 +144,11 @@ body {
 }
 
 .section-container {
-    
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding-top: 62px;
     
 }
 
 .section-header {
-    color: white;
     position: relative;
     font-size: 34px;
     font-weight: bolder;
@@ -168,9 +183,7 @@ body {
 }
 
 .bio-container {
-    
     gap: 140px;
-    align-items: center;
 
 }
 
@@ -193,19 +206,16 @@ body {
 }
 
 .skills-first-container, .skills-second-container {
-    
-    flex-direction: column;
     gap: 40px;
+
 }
 
 .skill {
-    
     flex-direction: row;
     border-bottom: #cf1b1b solid;
-    align-items: center;
     width: 400px;
-    justify-content: center;
     gap: 20px;
+
 }
 
 .project-image {
@@ -220,8 +230,6 @@ body {
 }
 
 .contact-form {
-    
-    flex-direction: column;
     margin-top: -16px;
     gap: 16px;
     
@@ -236,9 +244,9 @@ input:focus, textarea:focus {
 }
 
 .input-message, textarea {
-    background-color: white;
     color: black;
     padding: 15px;
+
 }
 
 .input-message {
@@ -257,8 +265,6 @@ textarea {
     margin-top: 40px;
     width: 119.13px;
     height: 42px;
-    color: white;
-    background-color: #cf1b1b;
     border: 0;
     margin-left: auto;
     margin-right: auto;
@@ -278,16 +284,11 @@ textarea {
 }
 
 footer {
-    
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     position: absolute;
     bottom: 0;
     width: 100%;
     padding: 15px 0;
     
-     
 }
 
 .footer-nav {
