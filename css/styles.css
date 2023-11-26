@@ -7,6 +7,11 @@
 h3, .resume-link {
     background-color: #14191b;
 }
+
+h3 {
+    font-size: 18px;
+}
+
 h4 {
     margin: 0px;
     font-size: 22px;
@@ -131,7 +136,17 @@ body {
     position: relative;
     font-size: 34px;
     font-weight: bolder;
+    margin-bottom: 60px;
+    margin-top: 50px;
     
+}
+
+.about-header {
+    margin-bottom: 85px;
+}
+
+.project-header , .contact-header , .about-header {
+    margin-bottom: 85px;
 }
 
 .section-header:before {
@@ -154,8 +169,6 @@ body {
 .bio-container {
     display: flex;
     gap: 140px;
-    margin-top: 75px;
-    margin-bottom: 35px;
     align-items: center;
 
 }
@@ -169,8 +182,6 @@ body {
 .skills-container {
     display: flex;
     flex-direction: row;
-    margin-bottom: 57.78px;
-    margin-top: 46.78px;
     gap: 200px;
     
 }
@@ -210,7 +221,9 @@ body {
 .contact-form {
     display: flex;
     flex-direction: column;
+    margin-top: -16px;
     gap: 16px;
+    
 }
 
 input:focus, textarea:focus {
@@ -230,6 +243,7 @@ input:focus, textarea:focus {
 .input-message {
     width: 340px;
     height: 20px;
+    
 }
 
 textarea {
@@ -252,18 +266,13 @@ textarea {
     transition: .2s ease-in-out 0s;
 }
 
-
-
 ::placeholder {
     font-weight: 600;
     font-size: 16px;
+    
 }
 
-textarea::placeholder {
-    font-family: 'Helvetica';
-}
-
-.footer, .nav-header, .header, .header-link {
+.footer, .nav-header, .header, .header-link, footer {
     background-color: #14191b;
 }
 
