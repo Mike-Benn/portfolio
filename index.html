@@ -22,7 +22,7 @@
         </header>
         <div id="content-wrap">
             <div class="section-container">
-                <a class="section-header">About</a>
+                <h2 class="section-header about-header">About</h2>
                 <div class="bio-container">
                     <a id="skills"><img class="me" src="./images/me.png" alt="Picture of Mike Bennett, the webpage creator in a shite shirt and tie"></a>
                     <div class="bio-content-container">
@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="section-container">
-                <h2 class="section-header">Skills</h2>
+                <h2 class="section-header skills-header">Skills</h2>
                 <div class="skills-container">
                     <div class="skills-first-container">
                         <div class="skill">
@@ -70,28 +70,28 @@
                 </div>
             </div>
             <div class="section-container">
-                <h2 class="section-header">Projects</h2>
+                <h2 class="section-header project-header">Projects</h2>
                 <a href="https://www.github.com/Mike-Benn/D280-map" target="_blank"><img class="project-image" src="./images/map.png" alt="Screenshot of map of the United States"></a>
             </div>
 
             <div class="section-container">
-                <h2 class="section-header">Contact</h2>
+                <h2 class="section-header contact-header">Contact</h2>
                 <form class="contact-form" method="POST" action="./scripts/contact.php">
                     <label for="name"></label>
-                    <input type="text" id="name" name="name" placeholder="Name" class="input-message">
+                    <input type="text" id="name" name="name" placeholder="Name" class="input-message name-value" maxlength="100">
 
                     <label for="email"></label>
-                    <input type="email" id="email" name="email" placeholder="Email" class="input-message">
+                    <input type="email" id="email" name="email" placeholder="Email" class="input-message email-value" maxlength="62">
 
                     <label for="message"></label>
-                    <textarea type="text" id="message" name="message" placeholder="Your message" class="contact-message"></textarea>
+                    <textarea type="text" id="message" name="message" placeholder="Your message" class="contact-message message-value"></textarea>
 
                     <input id="submit" name="submit" type="submit" value="Submit" class="submit-btn">
                 </form>    
             </div>
         </div>
-        <footer class="footer">
-            <h1 class="footer">Mike Bennett</h1>
+        <footer>
+            <h3 class="footer">Mike Bennett</h3>
             <nav class="footer footer-nav">
                 <a class="footer" href="https://github.com/mike-benn" target="_blank"><img class="social-logo footer" src="./images/github-logo.png"></a>
                 <a class="footer" href="mailto:mbenn49@wgu.edu"><img class="social-logo footer" src="./images/mail.png"></a>
