@@ -34,11 +34,26 @@ header , .section-container , .skill , footer , .bio-container {
 
 .section-container , .skills-first-container , .skills-second-container , .contact-form , footer {
     flex-direction: column;
+
 }
 
 .header-link::after , .section-header:before , footer {
     position: absolute;
 
+}
+
+.personal-logo:hover , .resume-btn:hover , .submit-btn:hover {
+    cursor: pointer;
+
+}
+
+#page-container , .section-header , .header-link {
+    position: relative;
+
+}
+
+.project-header , .contact-header , .about-header {
+    margin-bottom: 85px;
 }
 
 h3 {
@@ -77,22 +92,12 @@ header {
 .personal-logo {
     width: 59px;
     height: 59px;
-}
 
-.personal-logo:hover {
-    cursor: pointer;
 }
 
 .nav-header {
     gap: 40px;
     margin-left: 50px;
-    
-    
-    
-}
-
-.header-link {
-    position: relative;
     
 }
 
@@ -105,10 +110,12 @@ header {
     transform-origin: center;
     transition: transform 0.25s ease-out;
     transform: scaleX(0);
+
 }
 
 .header-link:hover::after {
     transform: scaleX(1);
+
 }
 
 
@@ -125,17 +132,15 @@ header {
 }
 
 .resume-btn:hover, .submit-btn:hover{
-    cursor: pointer;
     transform: scale(1.08);
-    
     
 }
 
 
 
 #page-container {
-    position: relative;
     min-height: 100vh;
+
 }
 
 #content-wrap {
@@ -153,20 +158,11 @@ body {
 }
 
 .section-header {
-    position: relative;
     font-size: 34px;
     font-weight: bolder;
     margin-bottom: 60px;
     margin-top: 50px;
     
-}
-
-.about-header {
-    margin-bottom: 85px;
-}
-
-.project-header , .contact-header , .about-header {
-    margin-bottom: 85px;
 }
 
 .section-header:before {
@@ -196,8 +192,6 @@ body {
 }
 
 .skills-container {
-    
-    flex-direction: row;
     gap: 200px;
     
 }
@@ -213,7 +207,6 @@ body {
 }
 
 .skill {
-    flex-direction: row;
     border-bottom: #cf1b1b solid;
     width: 400px;
     gap: 20px;
