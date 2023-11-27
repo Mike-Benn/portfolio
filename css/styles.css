@@ -54,6 +54,52 @@ header , .section-container , .skill , footer , .bio-container {
 
 .project-header , .contact-header , .about-header {
     margin-bottom: 85px;
+
+}
+
+h4 , body {
+    margin: 0px;
+
+}
+
+input:focus, textarea:focus {
+    outline: none;
+
+}
+
+.input-message, textarea, .submit-btn, .resume-btn , .project-image , .me {
+    border-radius: 8px;
+
+}
+
+.input-message, textarea {
+    color: black;
+    padding: 15px;
+
+}
+
+.footer, .nav-header, .header, .header-link, footer , h3 , .resume-link , .header-link {
+    background-color: #14191b;
+
+}
+
+.skills-first-container, .skills-second-container {
+    gap: 40px;
+
+}
+
+footer , header , .header-link::after {
+    width: 100%;
+
+}
+
+.input-message , textarea {
+    width: 340px;
+
+}
+
+.submit-btn , .resume-btn {
+    width: 119.13px;
 }
 
 h3 {
@@ -62,7 +108,6 @@ h3 {
 }
 
 h4 {
-    margin: 0px;
     font-size: 22px;
     font-weight: 1100;
 
@@ -82,7 +127,6 @@ a {
 header {
     position: fixed;
     top: 0;
-    width: 100%;
     padding: 10px 0;  
     z-index: 1;
     gap: 250px;
@@ -103,7 +147,6 @@ header {
 
 .header-link::after {
     content: '';
-    width: 100%;
     height: 2px;
     bottom: 0;
     left: 0;
@@ -118,10 +161,7 @@ header {
 
 }
 
-
-
 .resume-btn {
-    width: 119.13px;
     height: 42px;
     text-align: center;
     font-weight: 600;
@@ -136,8 +176,6 @@ header {
     
 }
 
-
-
 #page-container {
     min-height: 100vh;
 
@@ -146,10 +184,7 @@ header {
 #content-wrap {
     padding-bottom: 230.31px;
     margin-top: 89.44px;
-}
 
-body {
-    margin: 0;
 }
 
 .section-container {
@@ -172,12 +207,12 @@ body {
     bottom: -20%;
     left: 24%;
     border-bottom: 2px solid white;
+
 }
 
 .about-bio {
     width: 374px;
     font-weight:900;
-
     
 }
 
@@ -189,6 +224,7 @@ body {
 .me {
     width: 300px;
     height: auto;
+
 }
 
 .skills-container {
@@ -199,10 +235,6 @@ body {
 .skills-image {
     height: 75px;
     width: 75px;
-}
-
-.skills-first-container, .skills-second-container {
-    gap: 40px;
 
 }
 
@@ -217,10 +249,12 @@ body {
     width: 320px;
     height: 158px;
     transition: transform .2s;
+
 }
 
 .project-image:hover {
     transform: scale(1.1);
+
 }
 
 .contact-form {
@@ -229,41 +263,25 @@ body {
     
 }
 
-input:focus, textarea:focus {
-    outline: none;
-}
-
-.input-message, textarea, .submit-btn, .resume-btn , .project-image , .me {
-    border-radius: 8px;
-}
-
-.input-message, textarea {
-    color: black;
-    padding: 15px;
-
-}
-
 .input-message {
-    width: 340px;
     height: 20px;
     
 }
 
 textarea {
     height: 200px;
-    width: 340px;
     
 }
 
 .submit-btn {
     margin-top: 40px;
-    width: 119.13px;
     height: 42px;
     margin-left: auto;
     margin-right: auto;
     font-weight: 600;
     font-size: 16px;
     transition: .2s ease-in-out 0s;
+
 }
 
 ::placeholder {
@@ -272,13 +290,8 @@ textarea {
     
 }
 
-.footer, .nav-header, .header, .header-link, footer , h3 , .resume-link , .header-link {
-    background-color: #14191b;
-}
-
 footer {
     bottom: 0;
-    width: 100%;
     padding: 15px 0;
     
 }
@@ -297,4 +310,5 @@ footer {
 
 .social-logo:hover {
     transform: scale(1.2);
+
 }
