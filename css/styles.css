@@ -74,8 +74,8 @@ header , .section-container , .skill , footer , .bio-container {
 
 }
 
-.project-header , .contact-header , .about-header {
-    margin-bottom: 85px;
+.section-header.project-header , .section-header.contact-header , .section-header.about-header {
+    margin-bottom: 115px;
 
 }
 
@@ -145,16 +145,16 @@ footer , header , .header-link::after {
     align-items: center;
     justify-content: center;
     padding-top: 120px;
-    padding-bottom: 40px;
-    gap: 400px;
+    padding-bottom: 10px;
+    gap: 300px;
     
 }
 
 .name-title {
     font-size: 3rem;
-    font-weight: 400;
+    font-weight: 500;
     margin: 0;
-    padding-bottom: 15px;
+    padding-bottom: 8px;
 
 }
 
@@ -166,7 +166,7 @@ footer , header , .header-link::after {
 
 .welcome-text {
     font-size: 5rem;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 h3 {
