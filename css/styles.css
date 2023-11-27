@@ -1,3 +1,16 @@
+@keyframes scale {
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes fade-in {
+    100% {
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
 * {
     background-color: black;
     color: white;
@@ -116,6 +129,58 @@ footer , header , .header-link::after {
 .resume-btn:hover, .submit-btn:hover{
     transform: scale(1.08);
     
+}
+
+.welcome-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-right: 500px;
+    
+}
+
+.welcome-message {
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5 , 1 , 0.89 , 1);
+
+}
+
+span {
+    display: inline-block;
+    white-space: pre;
+    opacity: 0;
+    filter: blur(4px);
+    
+}
+
+.name-title {
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.job-title {
+    font-size: 1.1rem;
+    font-weight: 100;
+
+}
+
+.name-title:nth-child(1) {
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11 , 0 , 0.5 , 0);
+}
+
+.name-title:nth-child(2) {
+    animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11 , 0 , 0.5 , 0);
+}
+
+.job-title:nth-child(4) {
+    animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11 , 0 , 0.5 , 0);
+}
+
+.job-title:nth-child(5) {
+    animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11 , 0 , 0.5 , 0);
 }
 
 h3 {
