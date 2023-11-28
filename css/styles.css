@@ -313,12 +313,17 @@ header {
     width: 320px;
     height: 158px;
     transition: transform .2s;
+    
 
 }
 
 .project-image:hover {
     transform: scale(1.1);
 
+}
+
+.section-container.project-container {
+    margin-bottom: 50px;
 }
 
 .contact-form {
