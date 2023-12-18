@@ -28,7 +28,7 @@
 }
 
 header , .nav-header , .section-container , .bio-container , .skills-container , .skills-first-container , .skills-second-container , .skill ,
-.contact-form , footer , .footer-nav , .project-image-container-one , .project-image-block {
+.contact-form , footer , .footer-nav , .project-image-container , .project-image-block , .button-header-container {
     display: flex;
 
 }
@@ -43,6 +43,10 @@ header , .nav-header , .section-container , .bio-container , .skills-container ,
 
 }
 
+.button-header-container {
+    gap: 10px;
+}
+
 .project-image-block , .footer-nav , .skill {
     gap: 20px;
 }
@@ -53,7 +57,7 @@ header , .nav-header , .section-container , .bio-container , .skills-container ,
 
 }
 
-header , .section-container , .skill , footer , .bio-container , .project-image-block {
+header , .section-container , .skill , footer , .bio-container , .project-image-block , .button-header-container {
     align-items: center;
     justify-content: center;
 }
@@ -104,7 +108,7 @@ input:focus, textarea:focus {
 
 }
 
-.footer, .nav-header, .header, .header-link, footer , h3 , .resume-link , .header-link {
+.footer, .nav-header, .header, .header-link, footer , h3 , .resume-link , .header-link , .button-header-container {
     background-color: #14191b;
 
 }
@@ -304,8 +308,8 @@ header {
 
 }
 
-.project-image-container-one {
-    gap: 20px;
+.project-image-container {
+    gap: 30px;
 
 }
 
@@ -322,7 +326,7 @@ header {
 
 }
 
-.section-container.project-container {
+.section-container.project-container , .project-image-container {
     margin-bottom: 50px;
 }
 
