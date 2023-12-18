@@ -18,7 +18,11 @@
                 <a class="header-link" href="#projects"><h3>Projects</h3></a>
             <!--    <a class="header-link" href="#contact"><h3>Contact</h3></a> -->
             </nav>
-            <a href="./files/resume.pdf" target="_blank" class="resume-link"><button class="resume-btn" type="button">View Resume</button></a>
+            <div class="button-header-container">
+                <a href="./files/resume.pdf" target="_blank" class="resume-link"><button class="resume-btn" type="button">View Resume</button></a>
+                <a class="footer" href="https://github.com/mike-benn" target="_blank"><img class="social-logo footer" src="./images/github-logo.png"></a>
+                <a class="footer" href="mailto:mbenn49@wgu.edu"><img class="social-logo footer" src="./images/mail.png"></a>
+            </div>
         </header>
         <div id="content-wrap">
             <section class="welcome-container">
@@ -27,13 +31,14 @@
                     <p class="job-title">Software Engineer</p>
                 </div>
                 <div class="welcome-message">
-                    <a id="about"><p class="welcome-text">Welcome!</p></a>
+                    <p class="welcome-text">Welcome!</p>
                 </div>
             </section>
+            <a id="about"></a>
             <section class="section-container">
                 <h2 class="section-header about-header">About</h2>
                 <div class="bio-container">
-                    <a id="skills"><img class="me" src="./images/me.png" alt="Picture of Mike Bennett, the webpage creator in a shite shirt and tie"></a>
+                    <img class="me" src="./images/me.png" alt="Picture of Mike Bennett, the webpage creator in a shite shirt and tie">
                     <div class="bio-content-container">
                         <h4>Hello!</h4>
                         <p class="about-bio">I'm a lifelong healthcare worker who is currently going to school to be 
@@ -45,6 +50,7 @@
                     </div>
                 </div>
             </section>
+            <a id="skills"></a>
             <section class="section-container">
                 <h2 class="section-header skills-header">Skills</h2>
                 <div class="skills-container">
@@ -73,27 +79,32 @@
                         </div>
                         <div class="skill">
                             <img class="skills-image" src="./images/angular.png" alt="The letter A in black and white">
-                            <a id="projects"><h4>ANGULAR</h4></a>
+                            <h4>ANGULAR</h4>
                         </div>
                     </div>
                 </div>
             </section>
+            <a id="projects"></a>
             <section class="section-container project-container">
                 <h2 class="section-header project-header">Projects</h2>
                 <div class="project-image-holder">
-                    <div class="project-image-container-one">
+                    <div class="project-image-container">
                         <div class="project-image-block">
-                            <div class="project-image-header">D280 Map</div>
+                            <div class="project-image-header">Country Facts</div>
                             <a href="https://www.github.com/Mike-Benn/D280-map" target="_blank"><img class="project-image" src="./images/map.png" alt="Screenshot of map of the United States"></a>
                         </div>
                         <div class="project-image-block">
-                            <div class="project-image-header">Python Calculator App</div>
+                            <div class="project-image-header">Calculator</div>
                             <a href="https://github.com/Mike-Benn/pythonProjects/tree/main/Calculator" target="_blank"><img class="project-image" src="./images/calculator.png" alt="Picture of a calculator"></a>
                         </div>
                         <div class="project-image-block">
                             <div class="project-image-header">Sketchit</div>
                             <a href="https://github.com/Mike-Benn/sketchit" target="_blank"><img class="project-image" src="./images/sketchit.png" alt="Screenshot of pixel art sketching app"></a>
                         </div>
+                    </div>
+                    <div class="project-image-block">
+                        <div class="project-image-header">Hangman</div>
+                        <a href="https://github.com/Mike-Benn/pythonProjects/tree/main/Games" target="_blank"><img class="project-image" src="./images/hangman.png" alt="Screenshot of stick figure being hung at the gallows"></a>
                     </div>
                 </div>
             </section>
