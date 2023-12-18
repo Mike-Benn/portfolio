@@ -38,6 +38,10 @@ header , .nav-header , .section-container , .bio-container , .skills-container ,
 
 }
 
+.footer.navhead {
+    padding-left: 20px;
+}
+
 .resume-btn , .submit-btn {
     background-color: #cf1b1b;
 
