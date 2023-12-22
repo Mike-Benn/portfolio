@@ -152,6 +152,13 @@ footer , header , .header-link::after {
     
 }
 
+.skills-image.javascript-image {
+    height: 55px;
+    width: 55px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
 .welcome-container {
     display: flex;
     align-items: center;
